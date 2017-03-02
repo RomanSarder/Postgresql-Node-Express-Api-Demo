@@ -1,5 +1,5 @@
 // create route handler for creating todos
-const Todo = require('../models').Todo;
+const Todo = require('../../models').Todo;
 
 module.exports = {
     create(req, res) {

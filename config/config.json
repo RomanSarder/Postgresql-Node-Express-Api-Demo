@@ -1,4 +1,3 @@
-// DATA BASE AUTHENTICATION CONFIGURATION
 {
     "development": {
         "username": "postgres",
