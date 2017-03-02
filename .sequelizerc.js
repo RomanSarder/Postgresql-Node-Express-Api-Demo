@@ -1,3 +1,4 @@
+// this file set ups sequelize folder structure
 const path = require('path');
 
 

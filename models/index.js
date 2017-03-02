@@ -1,3 +1,8 @@
+// This file is created after sequelize init command
+// In this file we are requiring modules we re going to use
+// Establish connection with db after wich
+// we read our models folder and importing any models in with
+// adding them to the db object and applying relations if exist
 'use strict';
 
 const fs = require('fs');

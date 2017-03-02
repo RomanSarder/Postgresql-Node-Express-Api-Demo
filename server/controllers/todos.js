@@ -1,7 +1,8 @@
+// create route handler for creating todos
 const Todo = require('../models').Todo;
 
 module.exports = {
-    create(req.res) {
+    create(req, res) {
         return Todo
             .create({
                 title: req.body.title

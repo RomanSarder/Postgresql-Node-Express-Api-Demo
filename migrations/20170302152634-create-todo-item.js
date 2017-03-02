@@ -1,3 +1,7 @@
+// this file is generated after sequelize model:create comand
+// add relationships that wasn't added by default
+// this files are represantation of how we want our models
+// to look in the database
 'use strict';
 module.exports = {
     up: (queryInterface, Sequelize) => {
@@ -22,6 +26,7 @@ module.exports = {
                 allowNull: false,
                 type: Sequelize.DATE
             },
+            //relation with todo model
             todoId: {
                 type: Sequelize.INTEGER,
                 onDelete: 'Cascade',
